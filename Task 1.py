@@ -23,6 +23,7 @@ for i in range(count):
     if int(coins[0]) == 1:
         m += 1
 
+
 if m > n:
      x = n
 else:
