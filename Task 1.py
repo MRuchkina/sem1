@@ -11,9 +11,12 @@
 import random
 from random import randint
 count = int(input('Введите количество монет: '))
+
 m = 0
 n = 0
+
 coins = [0, 1]
+
 for i in range(count):
     random.shuffle(coins)
     print(f'Монета {i+1}: {coins[0]}')
@@ -21,8 +24,10 @@ for i in range(count):
         n += 1
     if int(coins[0]) == 1:
         m += 1
+
 if m > n:
      x = n
 else:
      x = m
+
 print(f"Минимальное количество монет, которые нужно перевернуть: {x}")
