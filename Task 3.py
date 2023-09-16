@@ -3,6 +3,7 @@
 n = input("Введите число N: ")
 n = int(n)
 m = 1
+
 while m < n:
     if(m < n):
         if (m * 2 > n):
