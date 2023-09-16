@@ -9,9 +9,7 @@
 
 import random
 from random import randint
-
 count = int(input('Введите количество монет: '))
-
 m = 0
 n = 0
 coins = [0, 1]
@@ -22,8 +20,6 @@ for i in range(count):
         n += 1
     if int(coins[0]) == 1:
         m += 1
-
-
 if m > n:
      x = n
 else:
